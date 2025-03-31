@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">LifeStyle Concierge</h3>
@@ -37,25 +37,6 @@ const Footer = () => {
                 <a href="/contact" className="text-gray-400 hover:text-blue-600 transition duration-200">
                   Contact
                 </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-            <ul className="space-y-3">
-              <li className="flex items-center">
-                <Phone className="w-5 h-5 text-blue-600 mr-2" />
-                <span className="text-gray-400">+1 (888) 123-4567</span>
-              </li>
-              <li className="flex items-center">
-                <Mail className="w-5 h-5 text-blue-600 mr-2" />
-                <span className="text-gray-400">support@lifestyleconcierge.com</span>
-              </li>
-              <li className="flex items-center">
-                <MapPin className="w-5 h-5 text-blue-600 mr-2" />
-                <span className="text-gray-400">123 Lifestyle St, New York, NY 10001</span>
               </li>
             </ul>
           </div>

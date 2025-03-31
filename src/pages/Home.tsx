@@ -47,24 +47,11 @@ export default function Home() {
   return (
     <main>
       <Hero/>
-      {/* <FeaturedExperts/> */}
-      {/* <ProductShowcase/>
-      <Pricing/> */}
-      {/* <CaseStudiesSection/> */}
+     
       <AboutSection/>
       <ServicesSection/>
-      {/* <ServicesCategory/> */}
-     
-      {/* <Features/> */}
-      {/* <HowItWorks/> */}
-      {/* <TrustSafety/>
-      <Partners/> */}
-      {/* <SecuritySection/> */}
-      {/* <FAQSection/> */}
 
-      {/* <PricingSection/>
-      <ProductShowCase/> */}
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Contact/>
       <Footer/>
     </main>

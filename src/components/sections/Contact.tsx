@@ -43,13 +43,7 @@ const Contact: React.FC = () => {
             </p>
 
             <div className="mt-8 space-y-6">
-              <div className="flex items-center">
-                <Phone className="w-6 h-6 text-blue-600 mr-4" />
-                <div>
-                  <h3 className="text-sm font-medium text-gray-900">Phone</h3>
-                  <p className="mt-1 text-gray-600">+1 (888) 123-4567</p>
-                </div>
-              </div>
+             
 
               <div className="flex items-center">
                 <Mail className="w-6 h-6 text-blue-600 mr-4" />
@@ -59,13 +53,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex items-center">
-                <MapPin className="w-6 h-6 text-blue-600 mr-4" />
-                <div>
-                  <h3 className="text-sm font-medium text-gray-900">Global Offices</h3>
-                  <p className="mt-1 text-gray-600">Available in 10 countries with 24/7 support</p>
-                </div>
-              </div>
+             
             </div>
 
             <div className="mt-12 p-6 bg-blue-50 rounded-lg">
