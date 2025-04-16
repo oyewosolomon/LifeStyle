@@ -80,7 +80,7 @@ const StackedServicesSection = () => {
   }, [services.length, controls]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200">
+    <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200" id='services'>
       {/* Header Section */}
       <div className="text-center py-20 bg-gradient-to-r from-gray-900 to-gray-800 top-0 z-0 shadow-xl">
         <motion.div
